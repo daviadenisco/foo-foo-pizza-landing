@@ -1,0 +1,38 @@
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    --red: #DA291C;
+    --yellow: #FFC72C;
+    --black: #27251F;
+    --grey: #CDCDCD;
+}
+header {
+    border-bottom: 1px solid var(--grey);
+    height: 130px;
+}
+.navbar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+    border: none;
+    display: grid;
+    margin: 0 !important;
+    padding: 0;
+    width: 100%;
+}
+.hero {
+    background-color: var(--red);
+}
+.logo {
+    height: 4em;
+    margin: 20px;
+}
+
+footer {
+    margin-bottom: 10px;
+}
+.ig-logo {
+    height: 2.5em;
+}
